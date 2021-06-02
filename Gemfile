@@ -13,9 +13,9 @@ gem 'rubocop', require: false
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails', require: false
 gem 'rename'
+gem 'mysql2'
 
 group :development, :test do
-  gem 'mysql2'
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.6.0'
 end
