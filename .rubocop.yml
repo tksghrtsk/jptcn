@@ -10,3 +10,14 @@ AllCops:
     - 'node_modules/**/*'
     - 'bin/*'
     - '**/Gemfile'
+    - 'lib/*'
+    - 'vendor/**/*'
+    - 'test/**'
+  Rails:
+    enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Documentation:
+  Enabled: false
