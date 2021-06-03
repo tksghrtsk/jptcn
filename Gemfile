@@ -17,7 +17,6 @@ gem 'mysql2'
 
 group :development, :test do
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.6.0'
 end
 
 group :development do
@@ -32,6 +31,8 @@ group :test do
   gem 'capybara', '3.28.0'
   gem 'selenium-webdriver', '3.142.4'
   gem 'webdrivers', '4.1.2'
+  gem 'rspec-rails', '~> 3.6.0'
+  gem 'rspec_junit_formatter'
 end
 
 group :production do
