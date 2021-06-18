@@ -12,7 +12,6 @@ gem 'uglifier'
 gem 'rubocop', require: false
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails', require: false
-gem 'rename'
 gem 'mysql2'
 
 group :development, :test do
