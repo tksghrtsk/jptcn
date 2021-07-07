@@ -1,8 +1,9 @@
 require:
-  - rubocop-performance
   - rubocop-rails
+  - rubocop-performance
 
 AllCops:
+  NewCops: enable
   Exclude:
     - 'db/**/*'
     - 'config/**/*'
@@ -13,8 +14,10 @@ AllCops:
     - 'lib/*'
     - 'vendor/**/*'
     - 'test/**'
-  Rails:
-    enabled: true
+  SuggestExtensions: false
+
+Rails:
+  enabled: true
 
 Style/FrozenStringLiteralComment:
   Enabled: false
