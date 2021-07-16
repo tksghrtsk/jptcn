@@ -1,0 +1,58 @@
+@import "bootstrap";
+
+/* header */
+.l-header {
+  background: #fff;
+  .m-inner {
+    margin: 15px 40px;
+    display: flex;
+    .m-logo {
+      font-family: "Renner*";
+    }
+    .btn {
+      margin: auto 3px 0 15px;
+      border-radius: 20px;
+    }
+    .btn-default {
+      background-color: #EEEEEE;
+      margin-left: 40px;
+    }
+  }
+}
+
+.l-container {
+  background: #FEE4E0;
+}
+
+.l-footer {
+  min-height: 150px;
+  padding: 39px 0 38px;
+  text-align: center;
+  padding-top: 8px;
+  background: #FCF4EB;
+  .m-link li {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #333;
+    padding-top: 1px;
+    a {
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      display: block;
+      line-height: 1;
+    }
+  }
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+small {
+  font-size: 80%;
+}
