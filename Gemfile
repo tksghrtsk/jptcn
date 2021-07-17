@@ -15,6 +15,7 @@ gem 'rubocop-rails', require: false
 gem 'mysql2'
 gem 'bootstrap'
 gem 'jquery-rails' 
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
