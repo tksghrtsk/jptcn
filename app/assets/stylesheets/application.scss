@@ -2,12 +2,14 @@
 
 /* header */
 .l-header {
+  
   background: #fff;
   .m-inner {
     margin: 15px 40px;
     display: flex;
     .m-logo {
       font-family: "Renner*";
+      margin:0 auto;
     }
     .btn {
       margin: auto 3px 0 15px;
@@ -25,11 +27,10 @@
 }
 
 .l-footer {
-  min-height: 150px;
-  padding: 39px 0 38px;
+  padding: 38px 0 38px;
   text-align: center;
   padding-top: 8px;
-  background: #FCF4EB;
+  background: #fff;
   .m-link li {
     display: inline-block;
     vertical-align: top;
